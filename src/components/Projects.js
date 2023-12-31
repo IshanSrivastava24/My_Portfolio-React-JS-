@@ -40,7 +40,7 @@ const Projects = () => {
 
         >
 
-            <div className="projects__navbar">
+            {/* <div className="projects__navbar">
                 <div className={active === 'All' && 'projects__navbar-active'} onClick={
                     () => {
                         setProjects(data_projects)
@@ -54,7 +54,7 @@ const Projects = () => {
                 <div className={active === 'mongoDB' && 'projects__navbar-active'} onClick={() => handleFilterCategory('mongoDB')}>MongoDB</div>
                 <div className={active === 'node.js' && 'projects__navbar-active'} onClick={() => handleFilterCategory('node.js')}>Node</div>
                 <div className={active === 'vanilla' && 'projects__navbar-active'} onClick={() => handleFilterCategory('vanilla')}>Vanilla</div>
-            </div>
+            </div> */}
 
             <div className="row">
 

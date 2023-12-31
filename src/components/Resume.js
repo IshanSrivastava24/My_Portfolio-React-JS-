@@ -45,7 +45,7 @@ const Resume = () => {
                         <p className="resume-card__name">
                         Lovely Professional University(2019-2022)
                         </p>
-                        <p className="resume-card__details">I am currently persuing Bachelor of Computer Applications from Lovely Professional University</p>
+                        <p className="resume-card__details">Completed Bachelor of Computer Applications from Lovely Professional University</p>
                     </div>
                 </div>
                 <div className="col-lg-6 resume-card" >
@@ -78,7 +78,7 @@ const Resume = () => {
                         }
                     </div>
                 </div>
-                <div className="col-lg-6 resume-languages">
+                {/* <div className="col-lg-6 resume-languages">
                     <h5 className="reume-language__heading">
                         Operating System
                     </h5>
@@ -87,7 +87,7 @@ const Resume = () => {
                             tools.map(tool => <Bar value={tool} />)
                         }
                     </div>
-                </div>
+                </div> */}
             </div>
         </motion.div>
     );

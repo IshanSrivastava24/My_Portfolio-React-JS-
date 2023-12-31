@@ -12,7 +12,7 @@ import Profile from "../assets/projects_images/profile.png"
 
 const Sidebar = () => {
     const handleEmailMe = () => {
-        window.open("mailto:ishan05278@gmail.com")
+        window.open("mailto:ishan.24sri@gmail.com")
     }
     const sidebar_variant = {
         hidden: {
@@ -44,19 +44,19 @@ const Sidebar = () => {
                     <img src={tie} alt="resume" className="sidebar__icon" />Download Resume
                 </div>
             </a>
-            <figure className="sidebar__social-icons my-2">
+            {/* <figure className="sidebar__social-icons my-2">
                 <a href="!#"><img src={facebook} alt="facebook" className="sidebar__icon mr-3" /></a>
                 <a href="https://www.instagram.com/ishan_srivastava24/"><img src={instagram} alt="instagram" className="sidebar__icon" /></a>
-            </figure>
+            </figure> */}
             <div className="sidebar__contact">
                 <div className="sidebar__item sidebar__github">
                     <a href="https://github.com/IshanSrivastava24"><img src={github} alt="github" className="sidebar__icon mr-3" />github</a>
                 </div>
                 <div className="sidebar__location">
                     <img src={pin} alt="location" className="sidebar__icon mr-3" />
-                    Ayodhya, India</div>
-                <div className="sidebar__item">ishan05278@gmail.com</div>
-                <div className="sidebar__item">8429006689/7706888254</div>
+                    Bengaluru, Karnataka</div>
+                <div className="sidebar__item">ishan.24sri@gmail.com</div>
+                <div className="sidebar__item">8429006689</div>
             </div>
             <div className="sidebar__item sidebar__email" onClick={handleEmailMe}>email me</div>
         </motion.div>

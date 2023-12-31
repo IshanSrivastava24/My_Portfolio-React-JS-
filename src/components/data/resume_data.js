@@ -5,37 +5,38 @@ const languages = [
     {
         icon: react,
         name: 'React JS',
-        level: '85'
+        level: '90'
     },
     {
         icon: react,
-        name: 'React Native',
+        name: 'React Hooks',
         level: '70'
-    },
-    {
-        icon: react,
-        name: 'Material UI',
-        level: '60'
     },
     {
         icon: react,
         name: 'JavaScript',
-        level: '70'
-    },
-    {
-        icon: react,
-        name: 'CSS',
-        level: '85'
-    },
-    {
-        icon: react,
-        name: 'HTML',
         level: '80'
     },
     {
         icon: react,
-        name: 'Bootstrap',
-        level: '90'
+        name: 'GIT',
+        level: '60'
+    },
+    
+    {
+        icon: react,
+        name: 'Responsive Design',
+        level: '85'
+    },
+    {
+        icon: react,
+        name: 'Context API',
+        level: '75'
+    },
+    {
+        icon: react,
+        name: 'State Management System',
+        level: '85'
     },
     
 ]
